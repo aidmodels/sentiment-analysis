@@ -1,0 +1,7 @@
+[package]
+name="sentiment_prediction"
+vendor="cyy"
+
+[[solvers]] 
+name="sentimentSolver"
+class="sentiment_prediction/solver/SentimentSolver"

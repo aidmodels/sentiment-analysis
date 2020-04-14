@@ -1,0 +1,4 @@
+*.pyc
+.env
+./pretrained/model-023-0.950231-0.952065.h5
+pretrained/model-023-0.950231-0.952065.h5
