@@ -1,6 +1,6 @@
 [package]
 name="sentiment_prediction"
-vendor="cyy"
+vendor="aidmodels"
 
 [[solvers]] 
 name="sentimentSolver"
