@@ -1,4 +1,4 @@
-# cyy/sentiment_prediction
+# aidmodels/sentiment_prediction
 
 > analyse sentiment
 
