@@ -1,5 +1,5 @@
 mlpm
-tensorflow==2.5.0
+tensorflow==2.5.2
 keras==2.3.1
 h5py
 numpy==1.19.2
