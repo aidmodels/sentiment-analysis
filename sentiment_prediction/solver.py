@@ -17,7 +17,7 @@ class SentimentSolver(Solver):
 
     def infer(self, data):
         # if you need to get file uploaded, get the path from input_file_path in data
-        sequences = self.loaded_tokenizer.texts_to_sequences([data['text']])
+        sequences = self.loaded_tokenizer.texts_to_sequences([data['input']])
         padding = pad_sequences(sequences, maxlen=MAX_LEN)
         result = self.model.predict(padding, batch_size=1, verbose=1)
         return {"output": result.tolist()} # return a dict
